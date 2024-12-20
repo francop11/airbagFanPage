@@ -1,0 +1,63 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    z-index: 1000; 
+    color: white !important;
+   
+}
+
+
+.collapse{
+    letter-spacing: 3px;
+    background-color: black;
+    color: white !important;
+    font-size: 20px;
+ 
+}
+
+a{
+    color: white !important;
+}
+  a:hover {
+    
+    
+    color: red !important;
+  }
+
+  a:focus {
+   
+    color: red !important;
+  }
+
+ 
+
+.bg-body-tertiary{
+  background-color: black !important;
+}
+
+
+
+
+.navbar-toggler{
+  background-color: red !important;
+}
+body {
+    padding-top: 56px; /* Asegura que el contenido no se sobreponga a la navbar */
+
+}
+
+.navbar-brand{
+  font-family: 'Courier New', Courier, monospace;
+  color: red !important;
+  margin-right: 300px;
+  font-size: 27px;
+ 
+  
+}
+
+.navbar-brand:hover{
+  color: white !important;
+}
